@@ -124,3 +124,50 @@ git clone https://github.com/saurav526/ai-security-platform.git
 
 cd ai-security-platform
 
+#EXAMPLE
+📊 Dashboard Modules
+🚨 Anomaly Detection
+
+Detect suspicious traffic patterns.
+
+Example Input
+Feature	Value
+Duration	5000
+Source Bytes	70000
+Destination Bytes	15
+Count	140
+Server Count	100
+Example Output
+⚠ Threat Detected: ANOMALY
+
+🔍 Semantic Log Search
+Search security logs with natural language queries.
+Example Query
+Find failed login attempts from last week
+Example Output
+1. 2024-06-01 12:34:56 - Failed login from IP
+2. 2024-06-02 08:45:12 - Failed login from IP
+3. 2024-06-03 14:20:30 - Failed login from IP
+
+🤖 LLM Alert Summarization
+Summarize complex security alerts into concise insights.
+Example Input
+Alert: Multiple failed login attempts detected from IP
+Example Output
+Summary: Multiple failed login attempts from IP indicate a potential brute-force attack. Recommend blocking the IP and monitoring for further activity.
+
+# 📈 Future Enhancements
+- Integrate real-time data streaming for live monitoring
+- Add more advanced ML models for improved detection accuracy
+- Implement user authentication and role-based access control
+- Expand the dashboard with additional visualizations and metrics
+- Deploy on cloud platforms for scalability and accessibility
+
+# 📞 Contact
+For questions, suggestions, or contributions, please contact:
+Saurav Kumar
+Email:sauravtiwari2712005@gmail.com
+GitHub:saurav526
+LinkedIn: linkedin.com/in/saurav-kumar-a90827323
+
+
