@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from model import predict_anomaly
 from vector_store import semantic_search
-from llm_summary import summarize_alert
+# from llm_summary import summarize_alert
 
 app = FastAPI(
     title="AI Security Intelligence Platform"
@@ -50,7 +50,7 @@ def search_logs(req: SearchRequest):
     }
 
 
-@app.post("/summarize")
+# @app.post("/summarize")
 def summarize(req: SummaryRequest):
     summary = summarize_alert(req.alert)
 
